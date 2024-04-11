@@ -1,0 +1,3 @@
+bison -d loosesql.y
+flex loosesql.l
+g++ lex.yy.c loosesql.tab.c -lfl -o test.exe
