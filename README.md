@@ -16,4 +16,4 @@ A low-level log parser designed to extract unique SQL queries from system logs (
 3. **AST Generation:** The C++ backend compiles these tokens into a temporary parse tree (`loosetree.cpp`) for structural inspection.
 
 ## Current State & Next Steps
-The front-end compiler mechanics (lexing, parsing, and base tree generation) are fully functional. The next phase of development will focus on traversing the generated syntax trees to map data lineages and detect column-level transformations automatically.
+The front-end compiler mechanics (lexing, parsing, and base tree generation) are functional POCs. The next phase of development will focus on traversing the generated syntax trees to map data lineages and detect column-level transformations automatically.
